@@ -1,0 +1,39 @@
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch index page
+  url: https://fetch.com/
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch careers page
+  url: https://fetch.com/careers
+- body: '{"foo":"bar"}'
+  headers:
+    content-type: application/json
+    user-agent: fetch-synthetic-monitor
+  method: POST
+  name: fetch some fake post endpoint
+  url: https://fetch.com/some/post/endpoint
+- name: fetch rewards index page
+  url: https://www.fetchrewards.com/
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch google homepage
+  url: https://www.google.com
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch nytimes homepage
+  url: https://www.nytimes.com
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch wsj homepage
+  url: https://www.wsj.com
+- headers:
+    user-agent: fetch-synthetic-monitor
+  method: GET
+  name: fetch youtube homepage
+  url: https://www.youtube.com
